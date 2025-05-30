@@ -15,10 +15,12 @@ spring:
     baseline-description: "init"
     baseline-version: 0
     user: ${spring.datasource.username}
-    password: ${spring.datasource.username}
+    password: ${spring.datasource.password}
 
-  application:
-    name: orderService
+    config:
+      customer-url: http://localhost:8222/api/customer
+      payment-url: http://localhost:8222/api/payment
+      product-url: http://localhost:8222/api/product
 
 server:
   port: 9595

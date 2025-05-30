@@ -14,7 +14,7 @@ import java.util.List;
 
 @SuppressWarnings("unused")
 @RestController
-@RequestMapping("")
+@RequestMapping("/api/product")
 @RequiredArgsConstructor
 public class ProductController {
     private final ProductService productService;

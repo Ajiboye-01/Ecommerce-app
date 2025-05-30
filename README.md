@@ -1,2 +1,2 @@
 # Ecommerce-app
-Front end of an ecommerce app
+A Micro service e commerce app
